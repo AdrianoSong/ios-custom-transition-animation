@@ -12,6 +12,10 @@
 		298F5A1823DB632500DA7350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298F5A1623DB632500DA7350 /* Main.storyboard */; };
 		298F5A1A23DB632600DA7350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298F5A1923DB632600DA7350 /* Assets.xcassets */; };
 		298F5A1D23DB632600DA7350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298F5A1B23DB632600DA7350 /* LaunchScreen.storyboard */; };
+		298F5A2523DB637100DA7350 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F5A2423DB637100DA7350 /* DetailsViewController.swift */; };
+		298F5A2723DB70B300DA7350 /* FadePushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F5A2623DB70B300DA7350 /* FadePushAnimator.swift */; };
+		298F5A2923DB70E400DA7350 /* FadePopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F5A2823DB70E400DA7350 /* FadePopAnimator.swift */; };
+		298F5A2B23DB7CDF00DA7350 /* AnimTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F5A2A23DB7CDF00DA7350 /* AnimTransitionable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		298F5A1923DB632600DA7350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298F5A1C23DB632600DA7350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298F5A1E23DB632600DA7350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298F5A2423DB637100DA7350 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		298F5A2623DB70B300DA7350 /* FadePushAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadePushAnimator.swift; sourceTree = "<group>"; };
+		298F5A2823DB70E400DA7350 /* FadePopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadePopAnimator.swift; sourceTree = "<group>"; };
+		298F5A2A23DB7CDF00DA7350 /* AnimTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimTransitionable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				298F5A1923DB632600DA7350 /* Assets.xcassets */,
 				298F5A1B23DB632600DA7350 /* LaunchScreen.storyboard */,
 				298F5A1E23DB632600DA7350 /* Info.plist */,
+				298F5A2423DB637100DA7350 /* DetailsViewController.swift */,
+				298F5A2623DB70B300DA7350 /* FadePushAnimator.swift */,
+				298F5A2823DB70E400DA7350 /* FadePopAnimator.swift */,
+				298F5A2A23DB7CDF00DA7350 /* AnimTransitionable.swift */,
 			);
 			path = TransitionTest;
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298F5A2723DB70B300DA7350 /* FadePushAnimator.swift in Sources */,
 				298F5A1523DB632500DA7350 /* ViewController.swift in Sources */,
 				298F5A1323DB632500DA7350 /* AppDelegate.swift in Sources */,
+				298F5A2523DB637100DA7350 /* DetailsViewController.swift in Sources */,
+				298F5A2923DB70E400DA7350 /* FadePopAnimator.swift in Sources */,
+				298F5A2B23DB7CDF00DA7350 /* AnimTransitionable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 736S8K8L22;
 				INFOPLIST_FILE = TransitionTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 736S8K8L22;
 				INFOPLIST_FILE = TransitionTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
